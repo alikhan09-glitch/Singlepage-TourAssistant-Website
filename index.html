@@ -1,0 +1,1407 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>CelebalTour</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/02598314c5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light main-navbar
+    bg m-navbar-light" id="main-navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">CELEBAL TOUR</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#my-nav"
+                aria-controls="p-nav" aria-expanded="false" aria-label="toggle-navigation">
+                <span><i class="fa fa-home"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="my-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#hero" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#popular" class="nav-link">Popular Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#historical-places" class="nav-link">Historical Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Assistant PopUp section -->
+
+    <div id="popup">
+
+        <!-- Assistant Slides -->
+        <div class="real_container" id="real_container">
+            <!-- Upper Slide -->
+            <div class="upper_slide" id="upper_slide">
+                <h1>Welcome To Celebal Tour</h1>
+                <button class="close-btn" id="close"><i class="fa fa-times"></i></button>
+            </div>
+            <div class="assistant_container">
+                <!-- Left Slide -->
+                <div class="left_slide">
+                    <div class="profileText">
+                        <div class="slide_container">
+                            <ul>
+                                <li>
+                                    <input id="rd1" type="radio" name="imgBx" value="imgBx1" onclick="">
+                                    <div class="imgBx">
+                                        <img id="image_slider" src="img/assistant0.JPEG" alt="" class="slider-img">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Slide -->
+                <div class="right_slide">
+                    <div class="assistant">
+                        <!--body-->
+                        <div class="assistant_box">
+                            <!--section-->
+                            <ul>
+                                <li>
+                                    <h2 class="title2">Celebal Tour Assistant</h2>
+                                    <p>To be an expert in the practical field through commitment, perseverance and
+                                        continuous improvement. <br>
+                                        Seeking a beginner role to enhance and explore technical knowledge gained at
+                                        Poornima College of Engineering, jaipur in the last three years.</p>
+                                </li>
+                            </ul>
+                            <div onclick="showNext('Assistant1.png')" class="interest right">
+                                <button class="interest-btn right">Next<i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="assistant_box">
+                            <ul>
+                                <li>
+                                    <h2 class="title2">Home Page</h2>
+                                    <p>To be an expert in the practical field through commitment, perseverance and
+                                        continuous improvement. <br>
+                                        Seeking a beginner role to enhance and explore technical knowledge gained at
+                                        Poornima College of Engineering, jaipur in the last three years.</p>
+                                </li>
+                            </ul>
+                            <div onclick="showPrew('Assistant0.jpeg')" class="interest left">
+                                <button class="interest-btn left"><i class="fa fa-chevron-left"></i>Previous</button>
+                            </div>
+                            <div onclick="showNext('Assistant2.png')" class=" interest right">
+                                <button class="interest-btn right">Next<i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="assistant_box">
+                            <ul>
+                                <li>
+                                    <h2 class="title2">About Page</h2>
+                                    <p>To be an expert in the practical field through commitment, perseverance and
+                                        continuous improvement. <br>
+                                        Seeking a beginner role to enhance and explore technical knowledge gained at
+                                        Poornima College of Engineering, jaipur in the last three years.</p>
+                                </li>
+                            </ul>
+                            <div onclick="showPrew('Assistant1.png')" class="interest left">
+                                <button class="interest-btn left"><i class="fa fa-chevron-left"></i>Previous</button>
+                            </div>
+                            <div onclick="showNext('Assistant3.png')" class="interest right">
+                                <button class="interest-btn right">Next<i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="assistant_box">
+                            <ul>
+                                <li>
+                                    <h2 class="title2">Popular Places Section</h2>
+                                    <p>To be an expert in the practical field through commitment, perseverance and
+                                        continuous improvement. <br>
+                                        Seeking a beginner role to enhance and explore technical knowledge gained at
+                                        Poornima College of Engineering, jaipur in the last three years.</p>
+                                </li>
+                            </ul>
+                            <div onclick="showPrew('Assistant2.png')" class="interest left">
+                                <button class="interest-btn left"><i class="fa fa-chevron-left"></i>Previous</button>
+                            </div>
+                            <div onclick="showNext('Assistant4.png')" class="interest right">
+                                <button class="interest-btn right">Next<i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="assistant_box">
+                            <ul>
+                                <li>
+                                    <h2 class="title2">Services, We Provide</h2>
+                                    <p>To be an expert in the practical field through commitment, perseverance and
+                                        continuous improvement. <br>
+                                        Seeking a beginner role to enhance and explore technical knowledge gained at
+                                        Poornima College of Engineering, jaipur in the last three years.</p>
+                                </li>
+                            </ul>
+                            <div onclick="showPrew('Assistant3.png')" class="interest left">
+                                <button class="interest-btn left"><i class="fa fa-chevron-left"></i>Previous</button>
+                            </div>
+                            <div onclick="showNext('Assistant5.png')" class="interest right">
+                                <button class="interest-btn right">Next<i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="assistant_box">
+                            <ul>
+                                <li>
+                                    <h2 class="title2">Historical Places Section</h2>
+                                    <p>To be an expert in the practical field through commitment, perseverance and
+                                        continuous improvement. <br>
+                                        Seeking a beginner role to enhance and explore technical knowledge gained at
+                                        Poornima College of Engineering, jaipur in the last three years.</p>
+                                </li>
+                            </ul>
+                            <div onclick="showPrew('Assistant4.png')" class="interest left">
+                                <button class="interest-btn left"><i class="fa fa-chevron-left"></i>Previous</button>
+                            </div>
+                            <div onclick="showNext('Assistant6.png')" class="interest right">
+                                <button class="interest-btn right">Next<i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="assistant_box">
+                            <ul>
+                                <li>
+                                    <h2 class="title2">Blog Section</h2>
+                                    <p>To be an expert in the practical field through commitment, perseverance and
+                                        continuous improvement. <br>
+                                        Seeking a beginner role to enhance and explore technical knowledge gained at
+                                        Poornima College of Engineering, jaipur in the last three years.</p>
+                                </li>
+                            </ul>
+                            <div onclick="showPrew('Assistant5.png')" class="interest left">
+                                <button class="interest-btn left"><i class="fa fa-chevron-left"></i>Previous</button>
+                            </div>
+                            <div onclick="showNext('Assistant7.png')" class="interest right">
+                                <button class="interest-btn right">Next<i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="assistant_box">
+                            <ul>
+                                <li>
+                                    <h2 class="title2">Contact As</h2>
+                                    <p>To be an expert in the practical field through commitment, perseverance and
+                                        continuous improvement. <br>
+                                        Seeking a beginner role to enhance and explore technical knowledge gained at
+                                        Poornima College of Engineering, jaipur in the last three years.</p>
+                                </li>
+                            </ul>
+                            <div onclick="showPrew('Assistant6.png')" class="interest left">
+                                <button class="interest-btn left"><i class="fa fa-chevron-left"></i>Previous</button>
+                            </div>
+                            <div onclick="showNext('Assistant000.png')" class="interest right">
+                                <button class="interest-btn right">Next<i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="assistant_box">
+                            <ul>
+                                <li>
+                                    <h2 class="title2"> Let's Go..</h2>
+                                    <p>To be an expert in the practical field through commitment, perseverance and
+                                        continuous improvement. <br>
+                                        Seeking a beginner role to enhance and explore technical knowledge gained at
+                                        Poornima College of Engineering, jaipur in the last three years.</p>
+                                </li>
+                            </ul>
+                            <div onclick="showPrew('Assistant7.png')" class="interest left">
+                                <button class="interest-btn left"><i class="fa fa-chevron-left"></i>Previous</button>
+                                <button class="start-btn" id="start-btn">Get Started</i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Assistant PopUp section -->
+
+    <!-- Hero-Image -->
+    <section id="hero" class="hero-wrap" style="background-image: url('img/bg1.jpg');">
+        <div class="overlay"></div>
+        <div class="row no-gutters main-text align-items-center">
+            <div class="col-lg-7 col-md-6 d-flex align-item-end">
+                <div class="text">
+                    <h1 class="mb-4 text-capitalize">find a perfect deal <br>
+                        for your next trip
+                    </h1>
+                    <p style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a
+                        cupiditate asperiores deleniti consequatur libero.</p>
+                    <a href="#" class="btn btn-hero py-2 px-3"> View all</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Hero-Image -->
+
+    <!-- Search Section -->
+    <section>
+        <div id="about" class="section-search">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 tab-search">
+                        <div class="nav nav-pills" id="v-pills-tabs" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                                role="tab" aria-controls="v-pills-home" aria-selected="true">Flights</i></a>
+                            <a class="nav-link p-3" id="v-pills-profile1-tab" data-toggle="pill"
+                                href="#v-pills-profile1" role="tab" aria-controls="v-pills-profile1"
+                                aria-selected="false">Trains</a>
+                            <a class="nav-link p-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                                role="tab" aria-controls="v-pills-profile" aria-selected="false">Hotels</a>
+                            <a class="nav-link p-3" id="v-pills-messages-tab" data-toggle="pill"
+                                href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                aria-selected="false">Car Rents</a>
+                            <a class="nav-link p-3" id="v-pills-settings-tab" data-toggle="pill"
+                                href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                                aria-selected="false">Travelling Choice</a>
+                        </div>
+                    </div>
+                    <div class="tab-content py-5" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <div class="block-17">
+                                <form class="d-block d-lg-flex">
+                                    <div class="fields d-block d-lg-flex">
+                                        <div class="textfield-search mr-2 one-third">
+                                            <label>DESTINATION</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="0">Select destinaion</option>
+                                                <option value="SanFrancisco">Ahmedabad</option>
+                                                <option value="SanFrancisco">Allahabad</option>
+                                                <option value="SanFrancisco">Agra</option>
+                                                <option value="NewYork">Bangalore</option>
+                                                <option value="NewYork">Bhopal</option>
+                                                <option value="California">Chandigarh</option>
+                                                <option value="California">Chennai</option>
+                                                <option value="California">Delhi</option>
+                                                <option value="California">Hyderabad</option>
+                                                <option value="California">Jodhpur</option>
+                                                <option value="California">Jaipur</option>
+                                                <option value="NewYork">Kolkata</option>
+                                                <option value="California">Lucknow</option>
+                                                <option value="SanFrancisco">Mumbai</option>
+                                                <option value="SanFrancisco">Pune</option>
+                                            </select>
+                                            <!-- <input type="text" class="form-control" placeholder="search Location"> -->
+                                        </div>
+                                        <div class="check-in mr-2 one-third">
+                                            <label>Departure Date</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                            <!-- <input type="text" class="form-control" placeholder="check-in date"> -->
+                                        </div>
+                                        <div class="check-out mr-2 one-third">
+                                            <label>Add Return Date</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                            <!-- <input type="text" class="form-control" placeholder="check-out date"> -->
+                                        </div>
+                                        <div class="select-wrap mr-2 one-third">
+                                            <label>Travellers</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Guest</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3+</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="submit" class="search-submit btn btn-search" value="Search Flights">
+                                </form>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="tab-pane fade show" id="v-pills-profile1" role="tabpanel"
+                            aria-labelledby="v-pills-profile1-tab">
+                            <div class="block-17">
+                                <form class="d-block d-lg-flex">
+                                    <div class="fields d-block d-lg-flex">
+                                        <div class="textfield-search mr-2 one-third">
+                                            <label>DESTINATION</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="0">Select destinaion</option>
+                                                <option value="0">Select destinaion</option>
+                                                <option value="SanFrancisco">Ahmedabad</option>
+                                                <option value="SanFrancisco">Allahabad</option>
+                                                <option value="SanFrancisco">Agra</option>
+                                                <option value="NewYork">Bangalore</option>
+                                                <option value="NewYork">Bhopal</option>
+                                                <option value="California">Chandigarh</option>
+                                                <option value="California">Chennai</option>
+                                                <option value="California">Delhi</option>
+                                                <option value="California">Hyderabad</option>
+                                                <option value="California">Jodhpur</option>
+                                                <option value="California">Jaipur</option>
+                                                <option value="NewYork">Kolkata</option>
+                                                <option value="California">Lucknow</option>
+                                                <option value="SanFrancisco">Mumbai</option>
+                                                <option value="SanFrancisco">Pune</option>
+                                            </select>
+                                            <!-- <input type="text" class="form-control" placeholder="search Location"> -->
+                                        </div>
+                                        <div class="check-in mr-2 one-third">
+                                            <label>Departure Date</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                            <!-- <input type="text" class="form-control" placeholder="check-in date"> -->
+                                        </div>
+                                        <div class="check-out mr-2 one-third">
+                                            <label>Add Return Date</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                            <!-- <input type="text" class="form-control" placeholder="check-out date"> -->
+                                        </div>
+                                        <div class="select-wrap mr-2 one-third">
+                                            <label>Travellers</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Guest</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3+</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="submit" class="search-submit btn btn-search" value="Search Train">
+                                </form>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="tab-pane fade show " id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <div class="block-17">
+                                <form class="d-block d-lg-flex">
+                                    <div class="fields d-block d-lg-flex">
+                                        <div class="textfield-search mr-2 one-third">
+                                            <label>DESTINATION</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="0">Select destinaion</option>
+                                                <option value="SanFrancisco">Ahmedabad</option>
+                                                <option value="SanFrancisco">Allahabad</option>
+                                                <option value="SanFrancisco">Agra</option>
+                                                <option value="NewYork">Bangalore</option>
+                                                <option value="NewYork">Bhopal</option>
+                                                <option value="California">Chandigarh</option>
+                                                <option value="California">Chennai</option>
+                                                <option value="California">Delhi</option>
+                                                <option value="California">Hyderabad</option>
+                                                <option value="California">Jodhpur</option>
+                                                <option value="California">Jaipur</option>
+                                                <option value="NewYork">Kolkata</option>
+                                                <option value="California">Lucknow</option>
+                                                <option value="SanFrancisco">Mumbai</option>
+                                                <option value="SanFrancisco">Pune</option>
+                                            </select>
+                                            <!-- <input type="text" class="form-control" placeholder="search Location"> -->
+                                        </div>
+                                        <div class="check-in mr-2 one-third">
+                                            <label>CHECK IN</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                            <!-- <input type="text" class="form-control" placeholder="check-in date"> -->
+                                        </div>
+                                        <div class="check-out mr-2 one-third">
+                                            <label>CHECK OUT</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                            <!-- <input type="text" class="form-control" placeholder="check-out date"> -->
+                                        </div>
+                                        <div class="select-wrap mr-2 one-third">
+                                            <label>HOTEL TYPE</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Categories</option>
+                                                <option value="">suite</option>
+                                                <option value="">super deluxe</option>
+                                                <option value="">Economy</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="submit" class="search-submit btn btn-search" value="Find Hotels">
+                                </form>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="tab-pane fade show " id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <div class="block-17">
+                                <form class="d-block d-lg-flex">
+                                    <div class="fields d-block d-lg-flex">
+                                        <div class="textfield-search mr-2 one-third">
+                                            <label>DESTINATION</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="0">Select destinaion</option>
+                                                <option value="SanFrancisco">Ahmedabad</option>
+                                                <option value="SanFrancisco">Allahabad</option>
+                                                <option value="SanFrancisco">Agra</option>
+                                                <option value="NewYork">Bangalore</option>
+                                                <option value="NewYork">Bhopal</option>
+                                                <option value="California">Chandigarh</option>
+                                                <option value="California">Chennai</option>
+                                                <option value="California">Delhi</option>
+                                                <option value="California">Hyderabad</option>
+                                                <option value="California">Jodhpur</option>
+                                                <option value="California">Jaipur</option>
+                                                <option value="NewYork">Kolkata</option>
+                                                <option value="California">Lucknow</option>
+                                                <option value="SanFrancisco">Mumbai</option>
+                                                <option value="SanFrancisco">Pune</option>
+                                            </select>
+                                            <!-- <input type="text" class="form-control" placeholder="search Location"> -->
+                                        </div>
+                                        <div class="check-in mr-2 one-third">
+                                            <label>CHECK IN</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                            <!-- <input type="text" class="form-control" placeholder="check-in date"> -->
+                                        </div>
+                                        <div class="check-out mr-2 one-third">
+                                            <label>CHECK OUT</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                            <!-- <input type="text" class="form-control" placeholder="check-out date"> -->
+                                        </div>
+                                        <div class="time mr-2 one-third">
+                                            <label>TIME</label>
+                                            <span class="far fa-clock"></span>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">hours</option>
+                                                <option value="">6hr</option>
+                                                <option value="">12hr</option>
+                                                <option value="">24hr</option>
+                                                <option value="">24hr +</option>
+                                            </select>
+                                        </div>
+                                        <div class="select-wrap mr-2 one-third">
+                                            <label>CAR TYPE</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Categories</option>
+                                                <option value="">deluxe</option>
+                                                <option value="">super deluxe</option>
+                                                <option value="">luxury</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="submit" class="search-submit btn btn-search" value="Find Your Car">
+                                </form>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="tab-pane fade show " id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <div class="block-17">
+                                <form class="d-block d-lg-flex">
+                                    <div class="fields d-block d-lg-flex">
+                                        <div class="textfield-search mr-2 one-third">
+                                            <label>DESTINATION</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="0">Select destinaion</option>
+                                                <option value="SanFrancisco">Ahmedabad</option>
+                                                <option value="SanFrancisco">Allahabad</option>
+                                                <option value="SanFrancisco">Agra</option>
+                                                <option value="NewYork">Bangalore</option>
+                                                <option value="NewYork">Bhopal</option>
+                                                <option value="California">Chandigarh</option>
+                                                <option value="California">Chennai</option>
+                                                <option value="California">Delhi</option>
+                                                <option value="California">Hyderabad</option>
+                                                <option value="California">Jodhpur</option>
+                                                <option value="California">Jaipur</option>
+                                                <option value="NewYork">Kolkata</option>
+                                                <option value="California">Lucknow</option>
+                                                <option value="SanFrancisco">Mumbai</option>
+                                                <option value="SanFrancisco">Pune</option>
+                                            </select>
+                                            <!-- <input type="text" class="form-control" placeholder="search Location"> -->
+                                        </div>
+                                        <div class="check-in mr-2 one-third">
+                                            <label>CHECK IN</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                            <!-- <input type="text" class="form-control" placeholder="check-in date"> -->
+                                        </div>
+                                        <div class="check-out mr-2 one-third">
+                                            <label>CHECK OUT</label>
+                                            <span class="far fa-calendar-alt"></span>
+                                            <input value="10 / 7 / 2021" type="text" class="form-control"
+                                                data-select="datepicker" autocomplete="off">
+                                        </div>
+                                        <div class="select-wrap mr-2 one-third">
+                                            <label>TRAVEL TYPE</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="0">Select destinaion</option>
+                                                <option value="Adventure">Adventure</option>
+                                                <option value="Hiking">Hiking</option>
+                                                <option value="Suffing">Suffing</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="submit" class="search-submit btn btn-search" value="Find Tours">
+                                </form>
+                            </div>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Search Section -->
+
+    <!-- Welcome/about Section -->
+    <section class="about-section mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center heading-section mb-5">
+                    <h2 class="text-blank mb-2">Welcome To Celebal Tourism</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus animi perspiciatis maiores
+                        quia labore fugit accusamus reiciendis saepe earum.</p>
+                </div>
+            </div>
+            <div class="row img-wrap mb-5 mb-lg-0">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                            <a href="#" class="effect">
+                                <img src="img/about5.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                            <h2 class="text-black">Culture</h2>
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, a
+                                consectetur ducimus saepe illo fugit?</p>
+                            <a href="#" class="btn btn-about">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="row img-wrap mb-5 mb-lg-0">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="mb-4 margin-lg-0 col-lg-6">
+                            <a href="#" class="effect">
+                                <img src="img/about4.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-5 ml-auto align-self-center order-lg-1">
+                            <h2 class="text-black">History</h2>
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, a
+                                consectetur ducimus saepe illo fugit?</p>
+                            <a href="#" class="btn btn-about">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="row img-wrap mb-5 mb-lg-0">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                            <a href="#" class="effect">
+                                <img src="img/about3.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                            <h2 class="text-black">Nature</h2>
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, a
+                                consectetur ducimus saepe illo fugit?</p>
+                            <a href="#" class="btn btn-about">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+
+        </div>
+    </section>
+
+    <!-- End of Welcome/about Section -->
+
+    <!-- Popular Places -->
+    <section>
+        <div id="popular" class="popular section-bg img-effect mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section-title text-center">
+                            <h1 class="text-white">Popular Places</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="all-image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-md-5">
+                        <div class="single-img">
+                            <div class="img-thumb">
+                                <img src="img/popular1.jpeg" alt="">
+                            </div>
+                            <div class="img-hover">
+                                <div class="title">
+                                    <h3>The Colosseum, Rome</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-xl-7 col-md-7">
+                        <div class="single-img">
+                            <div class="img-thumb">
+                                <img src="img/popular4.jpg" alt="">
+                            </div>
+                            <div class="img-hover">
+                                <div class="title">
+                                    <h3>Taj Mahal, India</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-xl-12 col-md-7 col-lg-6">
+                        <div class="single-img">
+                            <div class="img-thumb">
+                                <img src="img/pkg12.jpg" alt="">
+                            </div>
+                            <div class="img-hover">
+                                <div class="title">
+                                    <h3>leh ladakh, India</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-xl-6 col-md-6 col-lg-4">
+                        <div class="single-img">
+                            <div class="img-thumb">
+                                <img src="img/popular5.jpg" alt="">
+                            </div>
+                            <div class="img-hover">
+                                <div class="title">
+                                    <h3>London</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-xl-6 col-md-12 col-lg-4">
+                        <div class="single-img">
+                            <div class="img-thumb">
+                                <img src="img/popular2.jpeg" alt="">
+                            </div>
+                            <div class="img-hover">
+                                <div class="title">
+                                    <h3>Great Wall of China</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Popular Places -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="section-title">
+                        <h2>Services We Provide</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequatur impedit
+                            nostrum, tempore soluta sunt?
+                        </p>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6 d-flex align-items-stretch">
+                            <div class="icon-circle purple">
+                                <div class="icon">
+                                    <i class="fas fa-drumstick-bite"></i>
+                                </div>
+                                <h4 class="text-white">Good Food</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, adipisci.</p>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                            <div class="icon-circle pink">
+                                <div class="icon">
+                                    <i class="fas fa-umbrella-beach"></i>
+                                </div>
+                                <h4 class="text-white">Beach Resort</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, adipisci.</p>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-md-6 d-flex align-items-stretch mt-4">
+                            <div class="icon-circle yellow">
+                                <div class="icon">
+                                    <i class="fas fa-hiking"></i>
+                                </div>
+                                <h4 class="text-white">Mountain-climbing</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, adipisci.</p>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="col-md-6 d-flex align-items-stretch mt-4 ">
+                            <div class="icon-circle blue">
+                                <div class="icon">
+                                    <i class="fas fa-mountain"></i>
+                                </div>
+                                <h4 class="text-white">Hot Air Ballon</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, adipisci.</p>
+                            </div>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Services Section -->
+
+    <!-- Team Section -->
+    <section class="team section-bg mt-5">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="text-center">Team</h2>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis earum in,
+                    distinctio commodi dolor reiciendis.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="img/alikhan.jpg" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/theali09/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/theali09"><i class="fab fa-facebook"></i></a>
+                                <a href="https://twitter.com/TheAli09"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/thealii09/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Ali Khan</h4>
+                            <span>Full Stack Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="img/bharat.jpg" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Bharat Sharma</h4>
+                            <span>Position Specification</span>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="img/yogita.jpg" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/yogita-tak-0b704a215"><i
+                                        class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Yogita Tak</h4>
+                            <span>Position Specification</span>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="img/yakshesh.jpg" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/yakshesh-gupta"><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Yakshesh Gupta</h4>
+                            <span>Position Specification</span>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="img/vikas.JPEG" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/vikas-s-75b89a188"><i
+                                        class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Vikas</h4>
+                            <span>Position Specification</span>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </section>
+    <!-- End of Team Section -->
+
+    <!-- Package Section -->
+    <section class="package section-padding mt-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section-title text-center">
+                        <h2 class="py-3">Packages We Offer</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xl-6">
+                    <div class="package-1">
+                        <img src="img/pkg13.jpg" class="img-fluid" alt="">
+                        <div class="package-text">
+                            <p>Summer season, <br> ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iure
+                                aliquid alias
+                                dolorum necessitatibus perferendis.</p>
+                            <a href="#" class="btn-package p-2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-md-6 col-xl-6">
+                    <div class="package-1">
+                        <img src="img/pkg14.jpg" class="img-fluid" alt="">
+                        <div class="package-text">
+                            <p>winter season, <br> ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iure
+                                aliquid alias
+                                dolorum necessitatibus perferendis.</p>
+                            <a href="#" class="btn-package p-2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </section>
+    <!-- End of Package Section -->
+
+    <!-- Historical Places Section -->
+    <section id="historical-places" class="mt-2">
+        <div class="historical-places">
+            <dic class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-title text-center mb-70">
+                            <h3 class="text-uppercase">Historocal Places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus quibusdam
+                                voluptatem, obcaecati hic asperiores?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 md-6">
+                        <div class="single-dest">
+                            <div class="thumb">
+                                <img src="img/popular4.jpg" class="img-fluid" alt="">
+                                <a href="#" class="price">$300</a>
+                            </div>
+                            <div class="dest-info">
+                                <a href="https://en.wikipedia.org/wiki/Taj_Mahal">
+                                    <h3>Taj Mahal, Agra</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="rating d-flex justifiy-content-between">
+                                    <span class="d-flex justify-content-center 
+                                    align-items-center">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="#">(50 Review)</a>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fas fa-clock-o">
+                                            <a>10 Days</a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-lg-4 md-6">
+                        <div class="single-dest">
+                            <div class="thumb">
+                                <img src="img/hp1.jpg" class="img-fluid" alt="">
+                                <a href="#" class="price">$200</a>
+                            </div>
+                            <div class="dest-info">
+                                <a href="https://en.wikipedia.org/wiki/Charminar">
+                                    <h3>Charminar, Hyderabad</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="rating d-flex justifiy-content-between">
+                                    <span class="d-flex justify-content-center 
+                                    align-items-center">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a>(10 Review)</a>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fas fa-clock-o">
+                                            <a>20 Days</a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-lg-4 md-6">
+                        <div class="single-dest">
+                            <div class="thumb">
+                                <img src="img/hp2.jpg" class="img-fluid" alt="">
+                                <a href="#" class="price">$400</a>
+                            </div>
+                            <div class="dest-info">
+                                <a href="https://en.wikipedia.org/wiki/Red_Fort">
+                                    <h3>Red-Fort, Delhi</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="rating d-flex justifiy-content-between">
+                                    <span class="d-flex justify-content-center 
+                                    align-items-center">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a>(100 Review)</a>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fas fa-clock-o">
+                                            <a>14 Days</a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-lg-4 md-6">
+                        <div class="single-dest">
+                            <div class="thumb">
+                                <img src="img/hp3.jpg" class="img-fluid" alt="">
+                                <a href="#" class="price">$100</a>
+                            </div>
+                            <div class="dest-info">
+                                <a href="https://en.wikipedia.org/wiki/Gwalior_Fort">
+                                    <h3>Fort of Gwalior, Gwalior</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="rating d-flex justifiy-content-between">
+                                    <span class="d-flex justify-content-center 
+                                    align-items-center">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a>(20 Review)</a>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fas fa-clock-o">
+                                            <a>12 Days</a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-lg-4 md-6">
+                        <div class="single-dest">
+                            <div class="thumb">
+                                <img src="img/hp4.jpeg" class="img-fluid" alt="">
+                                <a href="#" class="price">$350</a>
+                            </div>
+                            <div class="dest-info">
+                                <a href="https://en.wikipedia.org/wiki/Lotus_Temple">
+                                    <h3>lotus-temple, Delhi</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="rating d-flex justifiy-content-between">
+                                    <span class="d-flex justify-content-center 
+                                    align-items-center">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a>(10 Review)</a>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fas fa-clock-o">
+                                            <a>5 Days</a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-lg-4 md-6">
+                        <div class="single-dest">
+                            <div class="thumb">
+                                <img src="img/hp5.jpg" class="img-fluid" alt="">
+                                <a href="#" class="price">$600</a>
+                            </div>
+                            <div class="dest-info">
+                                <a href="https://en.wikipedia.org/wiki/Mysore_Palace">
+                                    <h3>Mysore Palace, Mysuru</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="rating d-flex justifiy-content-between">
+                                    <span class="d-flex justify-content-center 
+                                    align-items-center">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a>(50 Review)</a>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fas fa-clock-o">
+                                            <a>15 Days</a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="btn-hish text-center">
+                            <div><a href="https://traveltriangle.com/blog/famous-historical-places-in-india/"
+                                    class="btn btn-hist">More Places</a></div>
+                        </div>
+                    </div>
+                </div>
+            </dic>
+        </div>
+    </section>
+    <!-- End of Historical Places Section -->
+
+    <!-- Customers Section -->
+    <section class="testimonial-section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="section-title ">
+                    <h2>Happy Customers</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="testimonial-item">
+                        <div class="text-date">
+                            12/07/2021
+                        </div>
+                        <h4>Lorem ipsum dolor sit.</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quo cumque dolorem nostrum
+                            laborum quos.</p>
+                        <div class="customer">
+                            <div class="customer-photo">
+                                <img src="img/kasim.JPG" alt="">
+                            </div>
+                            <div class="test-text">
+                                <h6>Kasim <span>India</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-6">
+                    <div class="testimonial-item">
+                        <div class="text-date">
+                            15/07/2021
+                        </div>
+                        <h4>Lorem ipsum dolor sit.</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quo cumque dolorem nostrum
+                            laborum quos.</p>
+                        <div class="customer">
+                            <div class="customer-photo">
+                                <img src="img/tanvi.jpeg" alt="">
+                            </div>
+                            <div class="test-text">
+                                <h6>Tanvi <span>USA</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </section>
+    <!-- End of Customers Section -->
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2 class="text-center pb-2">Recent Blog</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <img src="img/blog3.webp" class="img-fluid" alt="">
+                        <div class="blog-detail">
+                            <div class="blog-date">
+                                July 10,2021
+                            </div>
+                            <a href="#" class="tag">#World</a>
+                        </div>
+                        <h4><a href="#">Lorem ipsum dolor sit amet consectetur.</a></h4>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <img src="img/blog2.jpg" class="img-fluid" alt="">
+                        <div class="blog-detail">
+                            <div class="blog-date">
+                                July 10,2021
+                            </div>
+                            <a href="#" class="tag">#Nature</a>
+                        </div>
+                        <h4><a href="#">Lorem ipsum dolor sit amet consectetur.</a></h4>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog">
+                        <img src="img/blog1.jpg" class="img-fluid" alt="">
+                        <div class="blog-detail">
+                            <div class="blog-date">
+                                July 10,2021
+                            </div>
+                            <a href="#" class="tag">#Indian</a>
+                        </div>
+                        <h4><a href="#">Lorem ipsum dolor sit amet consectetur.</a></h4>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </section>
+    <!-- End of Blog Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact mt-3">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="text-center">Contact Us</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus omnis quas et
+                    dignissimos possimus aut.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="icon-box">
+                                <i class="fa fa-share"></i>
+                                <h3>Social Profiles</h3>
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/theali09/" class="linkdin">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#" class="twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="facebook">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                    <a href="#" class="instagram">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box mt-4">
+                            <i class="fa fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box mt-4">
+                            <i class="fa fa-phone"></i>
+                            <h3>24/7 support</h3>
+                            <p>+91 1234 5678</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="your name">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="email" name="email" class="form-control" id="email"
+                                    placeholder="your email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
+                        </div>
+                        <div><a href="#" class="btn btn-about">Send Message</a></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Contact Section -->
+
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4>Join Our News Latter</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <form>
+                            <input type="email" name="email">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4">
+            <div class="copy-right">
+                &copy;Copyright<strong><span>CelebalTour</span></strong>
+                .All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by<a href="#"> Tech Pro...</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
